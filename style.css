@@ -93,11 +93,12 @@ h1 {
     .project-list a {
         font-size: 22px;
     }
-}
+/* Homepage Video */
 .video-container {
+  width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .homepage-video {
@@ -105,4 +106,5 @@ h1 {
   max-width: 900px;
   border-radius: 12px;
   display: block;
+  object-fit: cover;
 }
