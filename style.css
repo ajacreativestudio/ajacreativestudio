@@ -94,3 +94,15 @@ h1 {
         font-size: 22px;
     }
 }
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.homepage-video {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+  display: block;
+}
