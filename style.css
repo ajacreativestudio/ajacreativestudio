@@ -140,3 +140,44 @@ header {
   display: block;
   object-fit: cover;
 }
+    /* Hero Visual Composition */
+.hero-visual {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Shapes */
+.shape-1, .shape-2 {
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    border-radius: 40px;
+    opacity: 0.9;
+}
+
+/* Colors */
+.shape-1 {
+    background: #4AE642;
+    top: -40px;
+    left: -60px;
+}
+
+.shape-2 {
+    background: #F5612B;
+    top: 20px;
+    right: -40px;
+}
+
+/* GIF */
+.homepage-gif {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    z-index: 10;
+}
